@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep Bansal - Modern Resume</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #374151; /* Dark gray text */
+            font-size: 0.875rem; /* Base font size (14px) */
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 0.75rem; /* Rounded corners */
+            padding: 2rem;
+        }
+        h1, h2, h3 {
+            color: #1f2937; /* Darker heading color */
+        }
+        h1 {
+            font-size: 2.1rem; /* Adjusted for overall balance */
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+        }
+        h2 {
+            font-size: 1.5rem; /* Adjusted for overall balance */
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            border-bottom: 2px solid #d1d5db; /* Lighter gray border under headings */
+            padding-bottom: 0.4rem;
+        }
+        h3 {
+            font-size: 1.05rem; /* Adjusted for overall balance */
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+        }
+        .section-content {
+            margin-bottom: 1.25rem;
+        }
+        .contact-info span {
+            display: inline-block;
+            margin-right: 1.25rem;
+            margin-bottom: 0.4rem;
+            font-size: 0.875rem; /* Keep contact info consistent with body */
+        }
+        .skill-list li, .tech-proficiency-category, .personal-detail-item {
+            font-size: 0.875rem; /* Ensure all list items are consistent */
+            margin-bottom: 0.2rem;
+        }
+        .experience-item {
+            margin-bottom: 1.25rem;
+            padding-left: 0.8rem;
+            border-left: 3px solid #9ca3af; /* Medium gray border for experience items */
+        }
+        .experience-item:last-child {
+            margin-bottom: 0;
+        }
+        .key-contributions li {
+            margin-bottom: 0.4rem;
+            list-style-type: disc;
+            margin-left: 1.1rem;
+            font-size: 0.875rem; /* Ensure consistent list item font size */
+        }
+        .key-contributions ul.list-circle li {
+            list-style-type: circle;
+            font-size: 0.875rem; /* Ensure consistent list item font size for nested lists */
+        }
+        .achievement-item {
+            margin-bottom: 0.4rem;
+            font-size: 0.875rem; /* Ensure consistent list item font size */
+        }
+        .tech-proficiency-category span {
+            font-weight: 600;
+            color: #4b5563;
+        }
+        a {
+            color: #1d4ed8; /* Darker blue for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Responsive two-column layout */
+        @media (min-width: 768px) {
+            .main-grid {
+                display: grid;
+                grid-template-columns: 1fr 2fr; /* One-third for left, two-thirds for right */
+                gap: 2rem; /* Gap between columns */
+            }
+            .left-column {
+                padding-right: 1rem; /* Add some padding to the right of the left column */
+                background-color: #f9fafb; /* Very light gray background for left column */
+                border-radius: 0.5rem;
+                padding: 1.5rem;
+            }
+            .right-column {
+                padding-left: 1rem; /* Add some padding to the left of the right column */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="text-center pb-4 border-b-2 border-gray-200 mb-6">
+            <h1 class="text-gray-900">Pradeep Bansal</h1>
+            <div class="contact-info text-gray-600">
+                <span>+91 7976322632</span>
+                <span>pdp1208@gmail.com</span>
+                <span>9.5+ YOE in QA Leadership, AI-Driven Automation, and Quality Engineering Excellence</span>
+            </div>
+            <div class="links mt-2">
+                <!-- Optional links - Replace # with your actual URLs -->
+                <a href="https://www.linkedin.com/in/pradeep-bansal" target="_blank" class="mr-4">LinkedIn</a>
+                <a href="https://github.com/pradeep-bansal" target="_blank" class="mr-4">GitHub</a>
+                <a href="#" target="_blank">Portfolio</a>
+            </div>
+        </header>
+
+        <!-- Profile Summary Section (Full Width) -->
+        <section class="section-content">
+            <h2>Profile Summary</h2>
+            <p class="text-gray-700 leading-relaxed mb-4">
+                Highly accomplished and impact-driven QA Engineering Leader with 9.5+ years of proven success in building enterprise-grade test strategies, scaling AI-powered automation frameworks, and leading high-performing QA teams across Banking, Healthcare, Payments, and SaaS platforms.
+            </p>
+            <ul class="list-disc pl-5 text-gray-700 leading-relaxed">
+                <li>Pioneered and deployed AI-powered automation tools [Test Genie, Play Genie, APILIZA, Digital PR Reviewer, Digital Twin, Digital Release Manager] using OpenAI (GPT-4o), Python, and LangChain, <strong>reducing test authoring time by 60–90% and accelerating SDLC by 40% across multiple product lines</strong>.</li>
+                <li>Architected and implemented scalable automation frameworks adopted across 5+ organizational units, <strong>improving overall test coverage by 25% and reducing regression cycles by 30%</strong>.</li>
+                <li>Provided end-to-end QA ownership from requirements to production, <strong>consistently ensuring zero critical defects in major releases for high-impact products</strong>.</li>
+                <li>Championed shift-left testing, self-healing scripts, CI/CD, and robust DevOps integration, <strong>leading to a 20% reduction in defect escape rate and enhanced release predictability</strong>.</li>
+                <li>Recognized for people-first leadership, fostering a culture of technical excellence and innovation, and driving strategic stakeholder alignment for scalable quality governance.</li>
+            </ul>
+        </section>
+
+        <!-- Main Content Grid (Two Columns for larger screens, single for small) -->
+        <div class="main-grid">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Core Leadership & Technical Skills Section -->
+                <section class="section-content">
+                    <h2>Core Leadership & Technical Skills</h2>
+                    <ul class="skill-list text-gray-700">
+                        <li><strong>Test Strategy & Quality Governance</strong></li>
+                        <li><strong>AI/ML-Powered Automation</strong> (Open AI, LangChain, Generative QA, Elastic Search, Embeddings)</li>
+                        <li><strong>UI/API Test Automation</strong> (Selenium, Playwright, Cypress, RestAssured)</li>
+                        <li><strong>CI/CD Integration</strong> (Jenkins, Docker, PCF, Kubernetes, Azure DevOps)</li>
+                        <li><strong>Cross-Functional Team Leadership</strong> (10+ engineers, Mentorship, Talent Development)</li>
+                        <li><strong>Agile / Scrum / Sprint Ownership</strong></li>
+                        <li><strong>Accessibility Testing</strong> | WCAG | Lighthouse / Axe</li>
+                        <li><strong>DevOps Collaboration & Release Management</strong></li>
+                        <li><strong>Automation KPIs</strong> | Quality Dashboards | Test Analytics | Data-Driven Quality</li>
+                    </ul>
+                </section>
+
+                <!-- Technical Proficiency Section -->
+                <section class="section-content">
+                    <h2>Technical Proficiency</h2>
+                    <div class="text-gray-700">
+                        <div class="tech-proficiency-category">
+                            <span>Languages:</span> Java, Python, JavaScript, C#
+                        </div>
+                        <div class="tech-proficiency-category">
+                            <span>Test Frameworks:</span> JUnit, TestNG, Cucumber, JBehave
+                        </div>
+                        <div class="tech-proficiency-category">
+                            <span>Automation Tools:</span> Selenium, Cypress, Playwright, Postman, RestAssured, SoapUI
+                        </div>
+                        <div class="tech-proficiency-category">
+                            <span>Performance:</span> JMeter, K6
+                        </div>
+                        <div class="tech-proficiency-category">
+                            <span>AI/LLM:</span> OpenAI GPT-4/4o, LangChain, Hugging Face Embeddings, Faiss Index, ElasticSearch
+                        </div>
+                        <div class="tech-proficiency-category">
+                            <span>DevOps:</span> Jenkins, Docker, Git, Kubernetes, Oracle Cloud, PCF, Azure DevOps
+                        </div>
+                        <div class="tech-proficiency-category">
+                            <span>Databases:</span> MS SQL, Postgres, Oracle
+                        </div>
+                        <div class="tech-proficiency-category">
+                            <span>Accessibility:</span> Axe, NVDA, Lighthouse, WCAG Compliance
+                        </div>
+                        <div class="tech-proficiency-category">
+                            <span>OS:</span> Windows, macOS, Linux
+                        </div>
+                        <div class="tech-proficiency-category">
+                            <span>IDEs:</span> IntelliJ, VSCode, PyCharm, STS, Eclipse
+                        </div>
+                        <div class="tech-proficiency-category">
+                            <span>Test Management:</span> JIRA, HP ALM, Rally, VersionOne
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education Section -->
+                <section class="section-content">
+                    <h2>Education</h2>
+                    <p class="text-gray-700"><strong>B.Tech – Electronics & Communication</strong></p>
+                    <p class="text-gray-600">JECRC, Jaipur | Graduated 2015</p>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Professional Experience Section -->
+                <section class="section-content">
+                    <h2>Professional Experience</h2>
+
+                    <div class="experience-item">
+                        <h3>Lead QA Engineer – Bank of New York Mellon Pvt Ltd</h3>
+                        <p class="text-gray-600 mb-2">Oct 2023 – Present | Enterprise AI QA Platforms</p>
+                        <ul class="list-disc pl-5 text-gray-700 key-contributions">
+                            <li>Led a high-performing 10-member QA team for critical AI tools, Wealth Platforms, and Document Lifecycle systems, <strong>managing quality assurance for products serving millions of users and billions in assets</strong>.</li>
+                            <li>Defined and executed the comprehensive QA roadmap for Test Genie, APILIZA, and Play Genie tools, <strong>directly impacting release cycles and enhancing product stability by 15%</strong>.</li>
+                            <li>Collaborated intensively with Product, DevOps, and Architecture teams to ensure seamless quality alignment and timely delivery, <strong>reducing cross-team dependencies by 20% and accelerating feature deployment</strong>.</li>
+                            <li><strong>Key Contributions:</strong>
+                                <ul class="list-circle pl-5 mt-2">
+                                    <li>Architected and built <strong>Test Genie</strong> using Python + GPT-4o for end-to-end BDD/test code generation in under 2 minutes, <strong>cutting manual scripting effort by 60% and accelerating feature delivery by 15%</strong>.</li>
+                                    <li>From Laying Foundation to launching production <strong>Play Genie</strong> using Python + GPT-4o for automated Execution from Just feature files without or less intervention from user for UI execution <strong>cutting  automatino writing effort with execution by 80%</strong>.</li>
+                                    <li>Designed, developed, and launched <strong>APILIZA</strong>: a robust Swagger-based API automation tool that achieved <strong>org-wide adoption by 5+ engineering teams</strong>, significantly improving API test coverage by 30% and enabling early defect detection.</li>
+                                    <li>Delivered <strong>Play Genie</strong> for automated UI test generation and Playwright execution, <strong>reducing UI test maintenance by 30% and increasing UI test coverage by 20% for critical user flows</strong>.</li>
+                                    <li>Strategically optimized test scripting effort by 60%, <strong>accelerating overall release velocity by 25%</strong> across multiple high-priority projects.</li>
+                                    <li>Established comprehensive quality dashboards with real-time release health, defect trends, and automation coverage, <strong>improving stakeholder visibility by 40% and reducing average defect resolution time by 10%</strong>.</li>
+                                    <li>Implemented robust CI/CD pipelines using Docker, Assembly, and Jenkins, <strong>automating 95% of regression testing and enabling daily, high-confidence deployments</strong>.</li>
+                                    <li>Integrated Healenium for resilient self-healing locators, <strong>reducing test flakiness by 40% and manual test maintenance overhead by 15 hours/week</strong>.</li>
+                                    <li>Developed an internal GPT-based AI PR Reviewer Bot, <strong>automating initial code review checks and speeding up review cycles by 2-3 hours per Pull Request</strong>.</li>
+                                    <li>Delivered automated QA for Smart Router, Search Agents, and other critical microservices, <strong>ensuring high availability and optimal performance for core banking operations</strong>.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h3>Senior QA Automation Engineer – Oracle India Pvt Ltd</h3>
+                        <p class="text-gray-600 mb-2">Sep 2021 – Oct 2023 | Primavera Cloud (PPM)</p>
+                        <ul class="list-disc pl-5 text-gray-700 key-contributions">
+                            <li>Owned end-to-end test automation for Portfolio, Risks, and Measures modules, <strong>supporting a global project management platform used by thousands of enterprises and managing multi-million dollar projects</strong>.</li>
+                            <li>Built and maintained robust Jenkins pipelines and Selenium Grid infrastructure for comprehensive regression testing, <strong>reducing regression execution time by 50% and improving test stability</strong>.</li>
+                            <li>Led test case strategy, conducted accessibility audits (via Axe, Lighthouse), and ensured release readiness, <strong>guaranteeing WCAG 2.1 compliance for critical modules and enhancing user inclusivity</strong>.</li>
+                            <li>Consistently maintained a <strong>100% sprint-wise regression pass rate and achieved zero blocker defects</strong> across 7+ major product releases.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h3>SDET II – Mastercard Technology Pvt Ltd</h3>
+                        <p class="text-gray-600 mb-2">Mar 2020 – Sep 2021 | 3DS 2.0 – Consumer Identity Check</p>
+                        <ul class="list-disc pl-5 text-gray-700 key-contributions">
+                            <li>Led authentication automation across DS2.0, ACP, and ISSM modules, <strong>securing millions of consumer transactions daily and ensuring compliance with global payment standards</strong>.</li>
+                            <li>Built comprehensive end-to-end BDD coverage using JBehave, SoapUI, and JUnit, <strong>achieving 85% automation coverage for critical authentication flows and improving test readability</strong>.</li>
+                            <li>Actively participated in DevOps QA for deployment, database validation, and PROD rollout, <strong>contributing to a 10% reduction in deployment-related issues and enhancing system reliability</strong>.</li>
+                            <li>Integrated real-time test dashboards for tracking automation health, <strong>providing actionable insights that reduced defect discovery time by 20%</strong>.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h3>QA Engineer – Fiserv India Pvt Ltd</h3>
+                        <p class="text-gray-600 mb-2">Aug 2018 – Mar 2020 | Digital Banking Platform</p>
+                        <ul class="list-disc pl-5 text-gray-700 key-contributions">
+                            <li>Built robust test frameworks in Java/C# and automated regression suites, <strong>improving test efficiency by 35% and reducing manual testing efforts</strong>.</li>
+                            <li>Created mock APIs for front-end testing before back-end readiness, <strong>accelerating front-end development cycles by 2 weeks per sprint and enabling parallel development</strong>.</li>
+                            <li>Ensured accessibility compliance (WCAG) across digital banking products, <strong>enhancing user experience for diverse customer segments and meeting regulatory requirements</strong>.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h3>Senior Test Engineer – Mindtree Ltd</h3>
+                        <p class="text-gray-600 mb-2">Oct 2015 – Jul 2018 | HealthStream Inc.</p>
+                        <ul class="list-disc pl-5 text-gray-700 key-contributions">
+                            <li>Performed comprehensive E2E manual and automation QA for multiple healthcare modules, <strong>contributing to the successful launch of 5+ major features and improving patient data integrity</strong>.</li>
+                            <li>Led User Acceptance Testing (UAT), defect Root Cause Analysis (RCA), and release certification for healthcare platforms, <strong>reducing post-release defects by 15% and ensuring regulatory compliance</strong>.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Key Achievements & Recognition Section -->
+                <section class="section-content">
+                    <h2>Key Achievements & Recognition</h2>
+                    <ul class="list-disc pl-5 text-gray-700">
+                        <li class="achievement-item"><strong>Platinum Award</strong> – AI Test Genie innovation (BNY Mellon) for <strong>transforming test generation processes and accelerating SDLC by 15%</strong>.</li>
+                        <li class="achievement-item"><strong>Star of the Month</strong> – For successful Jenkins parallel execution + Healenium setup, <strong>leading to a 40% reduction in test flakiness and significant time savings</strong>.</li>
+                        <li class="achievement-item"><strong>Bravo Award</strong> – For <strong>APILIZA launch and its org-wide adoption</strong>, significantly improving API test automation efficiency and coverage.</li>
+                        <li class="achievement-item"><strong>Strategic Thinking Award</strong> – For QA optimization at Mastercard, <strong>contributing to a 10% reduction in deployment-related issues and enhancing system reliability</strong>.</li>
+                        <li class="achievement-item"><strong>Out-performer</strong> – For enhancing CI pipeline & test automation coverage at Fiserv, <strong>improving test efficiency by 35% and accelerating release cycles</strong>.</li>
+                        <li class="achievement-item"><strong>CAR Coordinator</strong> – For driving QA process improvement at Fiserv, <strong>leading to more robust testing methodologies and a 20% reduction in defect escape rate</strong>.</li>
+                        <li class="achievement-item"><strong>Unstoppable Award</strong> – For multi-module automation ownership at Mindtree, <strong>ensuring high quality for critical healthcare platforms and successful feature rollouts</strong>.</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
